@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.total-container {
+  background: lightblue;
+  height: 100vh;
+}
+
+.top-container {
+  background: darkseagreen;
+  height: 20%
+}

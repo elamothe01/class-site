@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: peru;
+}
+
+.shapeshifter {
+  background: #6FD2B2;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: 2s
+}
+
+.shapeshifter:hover {
+  background: #61A1C4;
+  border-radius:0;
+  transform: translate(-50%, -50%) scale(2);
+}
