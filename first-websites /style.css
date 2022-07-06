@@ -1,0 +1,17 @@
+body {
+  background-color: lightblues;
+}
+
+.cats {
+  background-color:lightgrey;
+  width:100px;
+  height:50px;
+  padding: 5px;
+  border: 20px solid blue;
+  margin: 20px;
+}
+
+.image {
+  background-color: green;
+
+}
