@@ -44,12 +44,12 @@ body {
 }
 .shapeshifter {
   background: plum;
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   position: absolute;
-  top:57%;
-  left:43%;
+  top:55%;
+  left:42%;
   transform: translate(0%, 100%);
   transition: 2s
 }
@@ -57,8 +57,46 @@ body {
 .shapeshifter:hover {
   background: #61A1C4;
   border-radius:0;
-  transform: translate(30%, 30%) scale(2);
+  transform: translate(10%, 10%) scale(2);
 }
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 200px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  top: 200px;
+}
+
+.button1 {
+  background-color: whitesmoke;
+  color: black;
+  border: 2px solid Peru;
+}
+
+.button1:hover {
+  background-color: Peru;
+  color: white;
+}
+
+.button2 {
+  background-color:whitesmoke;
+  color:black;
+  border: 2px solid  Peru;
+}
+
+.button2:hover {
+  background-color:Peru;
+  color: white;
+}
+
 
 .sources {
     background: #E5D6EE;
