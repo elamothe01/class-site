@@ -9,7 +9,7 @@ body {
 .header{
   background: darkslateblue;
   text-align: center;
-  padding: 10px;
+  padding: 50px;
   margin-bottom:10px;
 }
 
@@ -17,20 +17,19 @@ body {
   background: thistle;
   height:100vh;
   display:flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   position: fixed;
+  text-decoration: center;
 }
 
 .container {
   background: #E5D6EE;
-  height:50vh;
+  height:30vh;
   display:flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   position: static;
+  text-align: center;
 }
 
 .item {
@@ -44,20 +43,20 @@ body {
 }
 .shapeshifter {
   background: plum;
-  width: 130px;
-  height: 130px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   position: absolute;
-  top:55%;
+  top:10s7%;
   left:42%;
-  transform: translate(0%, 100%);
+  transform: translate(0%, 0%);
   transition: 2s
 }
 
 .shapeshifter:hover {
   background: #61A1C4;
   border-radius:0;
-  transform: translate(10%, 10%) scale(2);
+  transform: translate(10%, 0%) scale(2);
 }
 
 
@@ -69,7 +68,7 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 30px 200px;
+  margin: -100px 200px;
   transition-duration: 0.4s;
   cursor: pointer;
   top: 200px;
@@ -79,7 +78,10 @@ body {
   background-color: whitesmoke;
   color: black;
   border: 2px solid Peru;
+  font-size: 20px;
+  margin-top: -470px;
 }
+
 
 .button1:hover {
   background-color: Peru;
@@ -90,6 +92,8 @@ body {
   background-color:whitesmoke;
   color:black;
   border: 2px solid  Peru;
+  font-size: 20px;
+  margin-top: -470px;
 }
 
 .button2:hover {
